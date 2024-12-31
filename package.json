@@ -1,0 +1,21 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc -b && node dist/index.js",
+    "producer": "npx tsc -b && node dist/producer.js",
+    "producer:user": "npx tsc -b && node dist/producer-user.js",
+
+    "consumer-group-1": "npx tsc -b && node dist/consumer.js",
+    "consumer-group-2": "npx tsc -b && node dist/consumer-group-2.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
